@@ -1,6 +1,10 @@
 # **Medical Image Analysis App** 🏥🔍  
 
-<p align="center"> <img src="https://img.shields.io/badge/Python-3.9-blue?style=for-the-badge&logo=python"> <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"> <img src="https://img.shields.io/badge/Google%20Gemini-AI-blue?style=for-the-badge"> <img src="https://img.shields.io/github/license/momina02/Medical-Image-Analysis-App?style=for-the-badge"> </p>
+![Python](https://img.shields.io/badge/Python-3.9-blue?style=for-the-badge&logo=python) 
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white) 
+![Google Gemini](https://img.shields.io/badge/Google%20Gemini-AI-blue?style=for-the-badge) 
+![OpenAI API](https://img.shields.io/badge/OpenAI-API-008080?style=for-the-badge&logo=openai&logoColor=white) 
+![License](https://img.shields.io/github/license/momina02/Medical-Image-Analysis-App?style=for-the-badge)
 
 ---
 
