@@ -6,43 +6,6 @@ import imghdr
 import base64
 import os
 
-# # Configure the API with your key
-# genai.configure(api_key=API_KEY)
-    
-# # Function to call the API with the image bytes
-# def generate_content(image_bytes):
-    
-#     # client = genai.Client(api_key=api_key)
-#     model = "gemini-2.0-flash"
-
-#     # Prepare the content using the image bytes (no need to decode Base64 manually)
-#     contents = [
-#         types.Content(
-#             role="user",
-#             parts=[
-#                 types.Part.from_bytes(
-#                     mime_type="mime_type",
-#                     data=image_bytes
-#                 )
-#             ]
-#         )
-#     ]
-
-#     generate_content_config = types.GenerateContentConfig(
-#         response_mime_type="text/plain",
-#     )
-
-#     # Collect the streamed response
-#     response_text = ""
-#     for chunk in client.models.generate_content_stream(
-#         model=model,
-#         contents=contents,
-#         config=generate_content_config,
-#     ):
-#         response_text += chunk.text
-#     return response_text
-
-
 
 # Configure the API
 genai.configure(api_key=API_KEY)
@@ -55,13 +18,13 @@ def get_mime_type(image_bytes):
     elif img_type == "png":
         return "image/png"
     else:
-        return "application/octet-stream"  # Default if unknown type
+        return "application/octet-stream"  
 
 # Function to call the API with the image bytes
 def generate_content(image_bytes):
-    mime_type = get_mime_type(image_bytes)  # Detect MIME type
+    mime_type = get_mime_type(image_bytes)  
 
-    model = genai.GenerativeModel("gemini-2.0-flash")  # Ensure correct model
+    model = genai.GenerativeModel("gemini-2.0-flash")
     
     prompt = (
         "Analyze this medical image and provide a detailed diagnosis. "
