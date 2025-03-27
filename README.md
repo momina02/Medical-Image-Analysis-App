@@ -1,4 +1,5 @@
-### **Medical Image Detection and Diagnosis App** 🏥🔍  
+# **Medical Image Analysis App** 🏥🔍  
+
 ![Python](https://img.shields.io/badge/Python-3.9-blue?style=for-the-badge&logo=python)  
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)  
 ![Google Gemini AI](https://img.shields.io/badge/Google%20Gemini-AI-blue?style=for-the-badge)  
@@ -43,14 +44,6 @@ streamlit run app.py
 
 ---
 
-## **🛠️ Tech Stack**  
-- **Python** 🐍  
-- **Streamlit** 🎨  
-- **Google Gemini AI** 🤖  
-- **OpenAI API** (Optional)  
-
----
-
 ## **📜 License**  
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.  
 
@@ -58,5 +51,3 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 ## **⭐ Contribute**  
 Feel free to fork this repository and contribute to its development. Pull requests are welcome!  
-
----
